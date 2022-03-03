@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    <title>Velkommen til Farmers Market</title>
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="icon" href="img/ifapple.png">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            overflow: hidden;
+            background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/fruitstand.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            padding: 0;
+        }
+        
+        .knap {
+            position: absolute;
+            right: 4vw;
+            top: 2vh;
+            font-size: 1.2vw;
+        }
+        
+        .footer {
+            position: absolute;
+            bottom: 0vh;
+            width: 101%;
+            border: 0;
+            z-index: 10;
+            background-color: lightgray;
+            opacity: 0.8;
+            text-align: center;
+            color: black;
+        }
+        
+        footer h4 {
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 1.5vw;
+            color: black;
+        }
+        
+        footer p {
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 1vw;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="overlay"> <img src="img/logo.png"> <a href="login.php" class="knap btn-success">Log ind</a> </div>
+    <div class="main">
+        <h1>Farmers Market - Solfrugt</h1>
+        <h3>
+Levering til restauranter, caféer og kantiner.
+Stort udvalg af friske grøntsager, økologi og specialiteter.
+Besøg også vores skønne butik Solfrugt i Torvehallerne Kbh.<br><br>
+Ring for et godt tilbud: 70 222 812</h3> </div>
+    <footer class="footer row">
+        <div class="col-xs-4">
+            <h4>Adresse</h4>
+            <p>Farmers Market ApS
+                <br> Litauen Allé 13
+                <br> 2630 Tåstrup
+                <br> Stade 2043 </p>
+        </div>
+        <div class="col-xs-4">
+            <h4>Farmers Market</h4>
+            <p>Hverdage: kl. 04.00 - 14.00
+                <br> Lørdag: kl: 04.00 - 12.00
+                <br> Telefon: 70 222 812
+                <br>farmers@farmersmarket.dk</p>
+        </div>
+        <div class="col-xs-4">
+            <h4>Solfrugt</h4>
+            <p>Torvehallerne Israels Plads Kbh K.
+                <br> Telefon: 40192862</p>
+        </div>
+    </footer>
+</body>
+
+</html>

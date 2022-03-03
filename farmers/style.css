@@ -1,0 +1,515 @@
+body {
+    padding: 0;
+    background: #F8F8FF;
+}
+
+.overlay {
+    z-index: 7;
+    position: absolute;
+    top: 0;
+    min-height: 10vh;
+    background-color: lightgray;
+    opacity: 1;
+    border: 0;
+    margin: 0;
+    width: 101%;
+    padding: 3px;
+}
+
+.overlay img {
+    height: 10vh;
+    padding-left: 3vw;
+    border-radius: 10px;
+}
+
+.main {
+    background-color: lightgray;
+    opacity: 0.8;
+    width: 50%;
+    margin-top: 20vh;
+    margin-left: 2vw;
+    padding: 3vw;
+    border-radius: 10px;
+}
+
+.main h1 {
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font: bolder;
+    font-size: 4vh;
+}
+
+.main h3 {
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font: bolder;
+    font-size: 3vh;
+}
+
+.header h2 {
+    border-bottom: solid green 2px;
+    text-align: center;
+    color: green;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.5vh;
+    padding: 1vh;
+}
+
+
+/*form,*/
+
+.content-login {
+    position: absolute;
+    top: 15vh;
+    left: 30vw;
+    width: 40%;
+    min-height: 50%;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+}
+
+.content-login form {
+    padding-left: 2vw;
+    padding-bottom: 2vh;
+    padding-top: 1vh;
+    padding-right: 2vw;
+}
+
+.content-login p {
+    font-size: 2.2vh;
+    position: absolute;
+    bottom: 2vh;
+    left: 2vw;
+}
+
+.input-group-login {
+    margin: 10px 0px 10px 0px;
+}
+
+.content {
+    width: 50%;
+    margin: auto;
+    background: white;
+    border: solid lightblue 1px;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    z-index: 3;
+    min-height: 50vh;
+    margin-top: 7vh;
+}
+
+.content form {
+    align-content: center;
+    padding-left: 5vw;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+    width: 80%;
+}
+
+.input-group label,
+.input-group-login label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+    font-size: 2.6vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.input-group input,
+.input-group-login input {
+    height: 4vh;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 2vh;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#user_type {
+    height: 4vh;
+    width: 96%;
+    padding: 5px 10px;
+    background: white;
+    font-size: 2vh;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+input,
+select {
+    text-align: center;
+    border-radius: 5px;
+    border: gainsboro 1px solid;
+    box-shadow: none;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.btn-success,
+.btn-warning,
+.btn-danger {
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 5px;
+    padding: 0.4vh;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    border: solid gainsboro 1px;
+}
+
+.btn:hover {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #51a051;
+    color: white;
+}
+
+.logud {
+    margin-right: 2vw;
+}
+
+.error {
+    position: relative;
+    width: 50%;
+    margin: auto;
+    padding: 2vw;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 2vh;
+}
+
+.success {
+    width: 50%;
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 2vh;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header h3 {
+    position: absolute;
+    top: 1vh;
+    left: 15vw;
+    font: 1.5vw bold;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 3vh;
+}
+
+footer {
+    height: 20vh;
+    background-size: contain;
+    background-position: center;
+    background-color: darkgrey;
+    bottom: 0vh;
+    width: 101%;
+    border: 0;
+    z-index: 10;
+    text-align: center;
+}
+
+footer h4 {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3vw;
+}
+
+footer p {
+    color: whitesmoke;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1vw;
+}
+
+.wrapper {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1vw;
+    margin-bottom: 3vh;
+    margin-top: 4vh;
+}
+
+.wrapper h3 {
+    font-size: 1.5vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.wrapper .index {
+    padding-left: 4vw;
+    padding-top: 5vh;
+}
+
+.indhold {
+    text-align: center;
+}
+
+.genbestil {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 33vh;
+}
+
+.index img {
+    width: 3vw;
+}
+
+.titel {
+    margin-bottom: 1vh;
+    padding-bottom: 2vh;
+    padding-left: 2vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.con {
+    border-bottom: solid green 1px;
+    margin-top: 0;
+    height: 8vh;
+    width: 100vw;
+    justify-content: flex-start;
+    padding-left: 4vw;
+    background-color: darkgrey;
+}
+
+.con2 {
+    border-bottom: solid green 1px;
+    padding: 0;
+    margin-top: 5vh;
+    height: 7vh;
+    justify-content: flex-end;
+    padding-right: 6vw;
+}
+
+.con h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3vh;
+}
+
+.modal {
+    overflow: visible;
+    padding: 1vw;
+    border-bottom: solid 10vh #358931;
+}
+
+.modal .modaltop {
+    text-align: center;
+    color: black;
+    border-bottom: 2vh;
+    font-size: 3vh;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    height: 10vh;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.modal .modaltop img {
+    height: 7vh;
+    width: 4vw;
+    position: absolute;
+    left: 2vw;
+    top: 1vh;
+}
+
+.modal .indhold {
+    position: relative;
+    width: 100%;
+    height: 80%;
+}
+
+.modal .udvalg {
+    position: relative;
+    padding: 0.5vw;
+    width: 100%;
+    height: 50%;
+}
+
+.modal .frugter {
+    position: relative;
+    padding: 1vw;
+    align-content: space-around;
+    text-align: center;
+    width: 100%;
+    border-top: solid gainsboro 2px;
+    border-bottom: solid gainsboro 2px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.frugter h3 {
+    font: 1.5vw bold;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3vh;
+}
+
+
+/* kundetjek filen */
+
+.container {
+    border-radius: 10px 10px 10px 10px;
+    background-color: whitesmoke;
+    border: solid 1px lightgray;
+    padding: 0px;
+    overflow: hidden;
+    position: relative;
+    min-height: 60vh;
+}
+
+table {
+    text-align: center;
+    width: 100%;
+    margin-right: 5vw;
+    margin-top: 1.4vh;
+    margin-bottom: 1.4vh;
+    font-size: 2vh;
+}
+
+.tjek {
+    min-height: 20vh;
+    margin-top: 5vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.index {
+    text-align: center;
+    align-items: center;
+    border-bottom: solid green 1px;
+}
+
+
+/* tjek filen */
+
+.resultat {
+    padding-left: 7vw;
+    padding-right: 1vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-color: gainsboro;
+    border-left: solid white 2px;
+    margin: none;
+}
+
+.admin_tjek_box,
+.kunde_tjek_box,
+.login_tjek_box {
+    padding-top: 5vh;
+    text-align: center;
+    width: auto;
+    height: auto;
+    background-color: gainsboro;
+    font-size: 2vh;
+}
+
+.resultat .round {
+    color: black;
+    border-bottom: solid gray 2px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto !important;
+}
+
+.img-center,
+.img-responsive.img-center {
+    margin: 0 auto !important;
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+.besked {
+    height: 20vh;
+    width: 30vw;
+}
+
+#myCarousel {
+    height: 60vh;
+    width: 70vw;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 5px;
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.carousel-inner {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-inner img {
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 23vh;
+    font-weight: bold;
+    color: black;
+    text-shadow: none;
+    background-color: gainsboro;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.imgblur {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
